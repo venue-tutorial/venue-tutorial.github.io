@@ -33,6 +33,31 @@
     <link rel="canonical" href="https://venue-tutorial.github.io/">
 </head>
 
+<style type="text/css">
+
+  .schedule table {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    width: 100%;
+    border-collapse: separate;
+  }
+
+  .schedule tr:nth-child(odd) td {
+    background-color: #f9f9f9;
+  }
+
+  .schedule tr:nth-child(even) td {
+    background-color: #e5e5e5;
+  }
+
+  .schedule tr td {
+    padding: 1.5625em 1em;
+    border: 1px solid #dcdcdc;
+  }
+
+</style>
+
 <body class="index">
     <header id="header">
         <h1 id="logo"><a href="/">VENUE</a></h1>
@@ -58,7 +83,7 @@
                 <br />
                 Date: Sep 30th, AM&PM
                 <br />
-                Location: Milan, Italy
+                Location: MiCo Milano, Milan, Italy
                 </p>
             </div>
         </div>
@@ -90,90 +115,176 @@ The goal of this tutorial is to foster interdisciplinary communication among res
     </div>
   </section>
 
-<!--<section class="wrapper style3 container special" id="speakers">-->
-<!--    <header class="major">-->
-<!--      <h2><strong>Speakers</strong></h2>-->
-<!--    </header>-->
+<section class="wrapper style3 container special" id="schedule">
 
-<!--    <div class="row">-->
+    <header class="major">
+      <h2><strong>Schedule</strong></h2>
+  </header>
 
-<!--      <div class="4u">-->
-<!--        <a href="https://www.di.ens.fr/~laptev" target="_blank">-->
-<!--          <section>-->
-<!--            <img class="image-circle" src="images/speakers/il.jpg" alt="Ivan Laptev" />-->
-<!--            <header>-->
-<!--              <h3>-->
-<!--                <strong> Ivan <br /> Laptev </strong>-->
-<!--              </h3>-->
-<!--            </header>-->
-<!--            <p style="text-align: center;">MBZUAI & INRIA Paris</p>-->
-<!--          </section>-->
-<!--        </a>-->
-<!--      </div>-->
+      <table class="schedule">
+        <tbody>
 
-<!--      <div class="4u">-->
-<!--        <a href="https://www.cs.utexas.edu/users/grauman" target="_blank">-->
-<!--          <section>-->
-<!--            <img class="image-circle" src="images/speakers/kg.jpg" alt="Kristen Grauman" />-->
-<!--            <header>-->
-<!--              <h3>-->
-<!--                <strong> Kristen <br /> Grauman </strong>-->
-<!--              </h3>-->
-<!--            </header>-->
-<!--            <p style="text-align: center;">University of Texas at Austin</p>-->
-<!--          </section>-->
-<!--        </a>-->
-<!--      </div>-->
+          <col width="33%">
+          <col width="33%">
+          <col width="33%">
 
-<!--      <div class="4u">-->
-<!--        <a href="https://sites.google.com/view/zichengliu/home" target="_blank">-->
-<!--          <section>-->
-<!--            <img class="image-circle" src="images/speakers/zcl.JPG" alt="Zicheng Liu" />-->
-<!--            <header>-->
-<!--              <h3>-->
-<!--                <strong> Zicheng <br /> Liu </strong>-->
-<!--              </h3>-->
-<!--            </header>-->
-<!--            <p style="text-align: center;">AMD</p>-->
-<!--          </section>-->
-<!--        </a>-->
-<!--      </div>-->
+          <tr>
+            <td><h4><strong>Time</strong></h4></td>
+            <td><h4><strong>Speaker</strong></h4></td>
+            <td><h4><strong>Content</strong></h4></td>
+          </tr>
 
-<!--    </div>-->
+          <tr>
+            <td><b>09:00 am - 09:45 am</b></td>
+            <td><b>Mike Z. Shou</b></td>
+            <td><b>Invited Talk1</b></td>
+          </tr>
 
-<!--    <div class="row">-->
+          <tr>
+            <td><b>09:45 am - 10:30 am</b></td>
+            <td><b>Angjoo Kanazawa</b></td>
+            <td><b>Invited Talk2</b></td>
+          </tr>
 
-<!--      <div class="4u">-->
-<!--        <a href="https://ltorresa.github.io/home.html" target="_blank">-->
-<!--          <section>-->
-<!--            <img class="image-circle" src="images/speakers/lt.png" alt="Lorenzo Torresani" />-->
-<!--            <header>-->
-<!--              <h3>-->
-<!--                <strong> Lorenzo <br /> Torresani </strong>-->
-<!--              </h3>-->
-<!--            </header>-->
-<!--            <p style="text-align: center;">Meta</p>-->
-<!--          </section>-->
-<!--        </a>-->
-<!--      </div>-->
+          <tr>
+            <td><b>11:00 am - 11:45 am</b></td>
+            <td><b>Gan Chuang</b></td>
+            <td><b>Invited Talk3</b></td>
+          </tr>
 
-<!--      <div class="4u">-->
-<!--        <a href="https://vlg.inf.ethz.ch/team/Prof-Dr-Siyu-Tang.html" target="_blank">-->
-<!--          <section>-->
-<!--            <img class="image-circle" src="images/speakers/syt.jpg" alt="Siyu Tang" />-->
-<!--            <header>-->
-<!--              <h3>-->
-<!--                <strong> Siyu <br /> Tang </strong>-->
-<!--              </h3>-->
-<!--            </header>-->
-<!--            <p style="text-align: center;">ETH Zürich</p>-->
-<!--          </section>-->
-<!--        </a>-->
-<!--      </div>-->
+           <tr>
+            <td><b>11:45 am - 12:30 am</b></td>
+            <td><b></b></td>
+            <td><b>Invited Talk4</b></td>
+          </tr>
 
-<!--    </div>-->
+           <tr>
+            <td><b>14:00 pm - 14:45 pm</b></td>
+            <td><b>Cordelia Schmid</b></td>
+            <td><b>Invited Talk5</b></td>
+          </tr>
 
-<!--</section>-->
+           <tr>
+            <td><b>14:45 pm - 15:30 pm</b></td>
+            <td><b>Yingqing He</b></td>
+            <td><b>Invited Talk6</b></td>
+          </tr>
+
+           <tr>
+            <td><b>16:00 pm - 16:45 pm</b></td>
+            <td><b>Kashyap Chitta</b></td>
+            <td><b>Invited Talk7</b></td>
+          </tr>
+
+           <tr>
+            <td><b>16:45 pm - 17:30 pm</b></td>
+            <td><b></b></td>
+            <td><b>Invited Talk8</b></td>
+          </tr>
+
+      </tbody>
+
+    </table>
+</section>
+
+<section class="wrapper style3 container special" id="speakers">
+    <header class="major">
+      <h2><strong>Speakers</strong></h2>
+    </header>
+
+    <div class="row">
+
+      <div class="4u">
+        <a href="https://thoth.inrialpes.fr/~schmid/" target="_blank">
+          <section>
+            <img class="image-circle" src="images/speakers/cs.jpg" alt="Cordelia Schmid" />
+            <header>
+              <h3>
+                <strong> Cordelia <br /> Schmid </strong>
+              </h3>
+            </header>
+            <p style="text-align: center;">INRIA</p>
+          </section>
+        </a>
+      </div>
+
+      <div class="4u">
+        <a href="https://people.csail.mit.edu/ganchuang/" target="_blank">
+          <section>
+            <img class="image-circle" src="images/speakers/gc.png" alt="Chuang Gan" />
+            <header>
+              <h3>
+                <strong> Chuang <br /> Gan </strong>
+              </h3>
+            </header>
+            <p style="text-align: center;">MIT-IBM AI Lab</p>
+          </section>
+        </a>
+      </div>
+
+      <div class="4u">
+        <a href="https://people.eecs.berkeley.edu/~kanazawa/" target="_blank">
+          <section>
+            <img class="image-circle" src="images/speakers/ak.png" alt="Angjoo Kanazawa" />
+            <header>
+              <h3>
+                <strong> Angjoo <br /> Kanazawa </strong>
+              </h3>
+            </header>
+            <p style="text-align: center;">University of California at Berkeley</p>
+          </section>
+        </a>
+      </div>
+
+    </div>
+
+    <div class="row">
+
+      <div class="4u">
+        <a href="https://sites.google.com/view/showlab" target="_blank">
+          <section>
+            <img class="image-circle" src="images/speakers/mzs.png" alt="Mike Z. Shou" />
+            <header>
+              <h3>
+                <strong> Mike Z. <br /> Shou </strong>
+              </h3>
+            </header>
+            <p style="text-align: center;">National University of Singapore</p>
+          </section>
+        </a>
+      </div>
+
+      <div class="4u">
+        <a href="https://kashyap7x.github.io/" target="_blank">
+          <section>
+            <img class="image-circle" src="images/speakers/kc.jpg" alt="Kashyap Chitta" />
+            <header>
+              <h3>
+                <strong> Kashyap <br /> Chitta </strong>
+              </h3>
+            </header>
+            <p style="text-align: center;">University of Tübingen</p>
+          </section>
+        </a>
+      </div>
+
+      <div class="4u">
+        <a href="https://yingqinghe.github.io/" target="_blank">
+          <section>
+            <img class="image-circle" src="images/speakers/yqh.png" alt="Yingqing He" />
+            <header>
+              <h3>
+                <strong> Yingqing <br /> He </strong>
+              </h3>
+            </header>
+            <p style="text-align: center;">HKUST</p>
+          </section>
+        </a>
+      </div>
+
+    </div>
+
+</section>
 
 <section class="wrapper style3 container special" id="organizers">
     <header class="major">
@@ -220,7 +331,7 @@ The goal of this tutorial is to foster interdisciplinary communication among res
                 <strong> Mike Z. <br /> Shou </strong>
               </h5>
             </header>
-            <p style="text-align: center;">NUS</p>
+            <p style="text-align: center;">National University of Singapore</p>
           </section>
         </a>
       </div>
@@ -228,6 +339,20 @@ The goal of this tutorial is to foster interdisciplinary communication among res
     </div>
 
     <div class="row">
+
+      <div class="2u">
+        <a href="" target="_blank">
+          <section>
+            <img class="image-circle" src="images/blank.jpg" alt="" />
+            <header>
+              <h5>
+                <strong> <br /> </strong>
+              </h5>
+            </header>
+            <p style="text-align: center;"></p>
+          </section>
+        </a>
+      </div>
 
       <div class="4u">
         <a href="https://www.surrey.ac.uk/people/josef-kittler" target="_blank">
@@ -253,6 +378,20 @@ The goal of this tutorial is to foster interdisciplinary communication among res
               </h5>
             </header>
             <p style="text-align: center;">University of Oxford</p>
+          </section>
+        </a>
+      </div>
+
+      <div class="2u">
+        <a href="" target="_blank">
+          <section>
+            <img class="image-circle" src="images/blank.jpg" alt="" />
+            <header>
+              <h5>
+                <strong> <br /> </strong>
+              </h5>
+            </header>
+            <p style="text-align: center;"></p>
           </section>
         </a>
       </div>
